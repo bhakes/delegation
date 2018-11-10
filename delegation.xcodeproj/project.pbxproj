@@ -12,6 +12,8 @@
 		D185E2D82196493200C1FC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D185E2D62196493200C1FC1A /* Main.storyboard */; };
 		D185E2DA2196493500C1FC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D185E2D92196493500C1FC1A /* Assets.xcassets */; };
 		D185E2DD2196493500C1FC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D185E2DB2196493500C1FC1A /* LaunchScreen.storyboard */; };
+		D185E2E521964BE200C1FC1A /* SwitchControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185E2E421964BE200C1FC1A /* SwitchControlDelegate.swift */; };
+		D185E2E721964CF900C1FC1A /* DelegatingSwitchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185E2E621964CF900C1FC1A /* DelegatingSwitchControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D185E2D92196493500C1FC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D185E2DC2196493500C1FC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D185E2DE2196493500C1FC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D185E2E421964BE200C1FC1A /* SwitchControlDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchControlDelegate.swift; sourceTree = "<group>"; };
+		D185E2E621964CF900C1FC1A /* DelegatingSwitchControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatingSwitchControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				D185E2D22196493200C1FC1A /* AppDelegate.swift */,
+				D185E2E421964BE200C1FC1A /* SwitchControlDelegate.swift */,
 				D185E2D42196493200C1FC1A /* ViewController.swift */,
+				D185E2E621964CF900C1FC1A /* DelegatingSwitchControl.swift */,
 				D185E2D62196493200C1FC1A /* Main.storyboard */,
 				D185E2D92196493500C1FC1A /* Assets.xcassets */,
 				D185E2DB2196493500C1FC1A /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D185E2E521964BE200C1FC1A /* SwitchControlDelegate.swift in Sources */,
 				D185E2D52196493200C1FC1A /* ViewController.swift in Sources */,
 				D185E2D32196493200C1FC1A /* AppDelegate.swift in Sources */,
+				D185E2E721964CF900C1FC1A /* DelegatingSwitchControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
